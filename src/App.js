@@ -10,7 +10,7 @@ function App() {
         <>
             <Header />
             <main className="container content">
-                <Routes>
+                <Routes basename="/react-food">
                     <Route exact path={Routing.home} element={<Home />} />
                     <Route
                         path={`${Routing.category}/:name`}
